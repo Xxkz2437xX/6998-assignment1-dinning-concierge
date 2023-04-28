@@ -85,3 +85,12 @@ Set up a CloudWatch event trigger that runs every minute and invokes the Lambda 
  
 
 In summary, based on a conversation with the customer, your LEX chatbot will identify the customer’s preferred ‘cuisine’. You will search through ElasticSearch to get random suggestions of restaurant IDs with this cuisine. At this point, you would also need to query the DynamoDB table with these restaurant IDs to find more information about the restaurants you want to suggest to your customers like name and address of the restaurant. Please note that you do not need to worry about filtering restaurants based on neighborhood in this assignment. Filter only using the cuisine.
+
+<img width="602" alt="Screenshot 2023-02-07 at 3 21 54 PM" src="https://user-images.githubusercontent.com/123038421/235262164-439b9110-7705-44b1-9c3f-64a71d5883d7.png">
+
+
+
+
+
+
+
